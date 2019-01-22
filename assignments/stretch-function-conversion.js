@@ -39,8 +39,8 @@ exampleArray = [1,2,3,4]
 
 let triple = exampleArray => {
     return exampleArray.map(function(num) {
-        return num*3
+        return num*3;
     })
 }
 
-console.log(triple(exampleArray);
+console.log(triple(exampleArray));
